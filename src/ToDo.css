@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Jost';
+  src: local('Jost'), url('./fonts/Jost-Regular.ttf') format('truetype');
+}
+*{
+  font-family: 'Jost';
+  
+}
+
+.TodoList-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ajusta la altura según tu diseño */
+  }
+  
+  .TodoList-container input,
+  .TodoList-container button {
+    margin-bottom: 10px; /* Ajusta el espacio entre los elementos según sea necesario */
+  }
+
+  span{
+    padding: 0px 40px 0px 40px;
+    color: white;
+    font-size: 30px;
+  }
+  input{
+    font-size: 30px;
+  }
+
+  .add_btn {
+    display: block;
+    width: 20%;
+    height: 60px;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    margin-top: 6px; 
+    background-color: #282828; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    text-align: center;
+    font-family: 'Honk';
+    font-size: 20px;
+  }
+  button:hover {
+    background-color: #b2b2b2; 
+  }
+
+  .btn_del {
+    
+    
+    
+    border-radius: 20px;
+    padding: 10px 20px; 
+    margin-top: 20px; 
+    background-color: #282828; 
+    color:rgb(180, 0, 0); 
+    border: none; 
+    cursor: pointer; 
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 15px;
+  }
