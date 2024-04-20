@@ -22,7 +22,7 @@ function App() {
         <div className="sidebar-icon" onClick={toggleSidebar}>
           <RiBookReadFill size={35} />
         </div>
-        <h1>To Do - LB1</h1>
+        <h1>To Do - LB2</h1>
         <div className="login-icon">
           <RiAccountCircleFill size={35}/>
         </div>
